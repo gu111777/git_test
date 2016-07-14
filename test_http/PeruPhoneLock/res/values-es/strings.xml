@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="suggest_string">Por favor, conecte la fábrica!</string>
+
+    <string name="app_name">Introduzca el código</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="empty_string">Entrada está vacía!</string>
+    <string name="title_language_setting">Select Language</string>
+	<string name="success_string">El éxito de entrada!</string>
+	<string name="error_string">El código es incorrecto, vuelva a intentarlo!</string>
+	<string name="ok_string">OK</string>
+	<string name="search_title_string">Haga clic en el botón para buscar el IMEI.</string>
+	
+	<string name="search_string">Búsqueda</string>
+	<string name="te_input_pswd">Por favor introduce la contraseña!</string>
+	<string name="try_times_count"> veces dejan!</string>
+	<string name="max_times_warning">El código es incorrecto, llame al 1025 para la asistencia</string>
+	<string name="te_invalid_imei">IMEI no válida, por favor reinicie el teléfono!</string>
+	<string name="te_warning">Amonestación</string>
+</resources>

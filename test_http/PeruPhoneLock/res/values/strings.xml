@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="suggest_string">please connect the Factory!</string>
+
+    <string name="app_name">PhoneLock</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="empty_string">input is empty!</string>
+    <string name="title_language_setting">Select Language</string>
+	<string name="success_string">Input success!</string>
+	<string name="error_string">Password error! Try again!</string>
+	<string name="ok_string">OK</string>
+	<string name="search_title_string">Click the button to search the IMEI.</string>
+	
+	<string name="search_string">Search</string>
+	<string name="te_input_pswd">Please input the password!</string>
+	<string name="try_times_count">times left!</string>
+	<string name="max_times_warning">The code is incorrect, call 1025 for assistance!</string>
+	<string name="te_invalid_imei">Invalid IMEI,Please restart the phone!</string>
+	<string name="te_warning">Warning</string>
+</resources>

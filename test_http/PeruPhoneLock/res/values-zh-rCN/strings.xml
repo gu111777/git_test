@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<string name="suggest_string">请联系工厂!</string>
+		
+		<string name="app_name">手机锁</string>
+		<string name="action_settings">设置</string>
+		<string name="hello_world">你好!</string>
+		<string name="empty_string">输入为空!</string>
+		<string name="title_language_setting">设置语言</string>
+		<string name="success_string">输入成功!</string>
+		<string name="error_string">密码错误! 请重试!</string>
+		<string name="ok_string">确认</string>
+		<string name="search_title_string">点击按钮获取IMEI号</string>
+		
+		<string name="search_string">搜索</string>
+		<string name="te_input_pswd">请输入密码!</string>
+		<string name="try_times_count">剩余次数!</string>
+		<string name="max_times_warning">密码错误, 请致电1025寻求帮助</string>
+		<string name="te_invalid_imei">无效的IMEI,请先写入合法IMEI!</string>
+		<string name="te_warning">警告</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.te.peruphonelock"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+  <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />    
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+	
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.STATUS_BAR" />
+  <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    
+<!--
+  note1:	
+  <category android:name="android.intent.category.LAUNCHER" />
+	<category android:name="android.intent.category.HOME" />
+	这里 <intent-filter android:priority="8"> 
+	设置 priority䶿，让嬿是比系统Launcher启动还要早的程序
+	note2:
+	但是，开机引导页，滑行到最后一张图时，点击 Get into 后，再次出现最后一张图ﺿ	而不是直接进入系统，移入DefaultActivity.java 入口处理
+-->
+
+<!--note3:  			
+	android 设置禁止横屏
+    android:screenOrientation="portrait" //初始为竖寿	android:configChanges="orientation|keyboardHidden|screenSize" //禁止切换  
+	
+		<action android:name="android.intent.action.DEVICE_INITIALIZATION_WIZARD" /> 
+		<category android:name="android.intent.category.HOME" />
+-->
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.te.NoTitleBar.Fullscreen"
+        >
+        
+        <activity
+            android:name="PeruPhoneLockActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" 
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            >
+            <intent-filter android:priority="8">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>      
+    </application>
+
+</manifest>
